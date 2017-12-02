@@ -6,72 +6,72 @@ from datetime import datetime
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3
 
 cl = Alin.LINE()
-cl.login(token="TOKEN")
+cl.login(qr=True)
 cl.loginResult()
 
 print "===[Login Success]==="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""||===== F O R   G R U P =====||
-||��✒ Cancel         - Cancel All Pending Grup
-||��✒ Invite         - Invite Via Send Contact
-||��✒ Invite:        - Via MID
-||��✒ Unban @   	  - Via Tag
-||��✒ Ban @   		  - Via Tag
-||��✒ Clear ban      - Delete All Blacklist
-||��✒ Link on        - Open QR
-||��✒ Link off       - Close QR
-||��✒ Gurl           - Open QR And Get Link
-||��✒ Url            - Get QR Link
-||��✒ Gname          - Change Name Group
-||��✒ Banlist        - Cek Tersangka Kriminal
-||��✒ Banlist mid    - Cek Blackist Mid
-||��✒ Ratakan		  - Meratakan Grup
-||��✒ Kick @         - Via Tag
-||��✒ Kick:          - Via MID
-||===== F O R  Y O U =====||
-||��✒ Me
-||��✒ Mymid
-||��✒ Mid @          - Get MID 
-||��✒ Broadcast: 	  - [Broadcast: Teks] Broadcast Contact
-||��✒ Grupbc: 		  - [Grupbc: Teks] Broadcast Grup
-||��✒ Spam on/off 	  - [Spam on/off Jumlah Teks] Spam Grup/Chat
-||��✒ Speed          - Tes Speed
-||��✒ Mycopy @       - Copy Profile 
-||��✒ Mybackup @     - Backup Profile
-||��✒ Getpp @        - Mendapatkan Foto Profile
-||��✒ Getcover @     - Mendapatkan Foto Header
-||��✒ Getbio @    	  - Mendapatkan Bio
-||��✒ Getinfo @      - Mendapatkan Info
-||��✒ Grup image 	  - Mendapatkan Foto Grup
-||��✒ Gcreator 		  - Melihat Pembuat Grup
-||��✒ Mention         - Mention All Member Group
-||��✒ Lurking        - Set Point Read
-||��✒ Result         - Reading Point
-||��✒ Ginfo          - Info Grup
-||��✒ Glist          - Info All Grup
-||========================||
-||===== S E T T I G S =====||          
-|| [Like:on/off]     
-|| [Like:me]     
-|| [Like:friend]     
-|| [Add on/off] 	 
-|| [Auto join on/off] 	   
-|| [Contact on/off] 	
-|| [Leave on/off]  
-|| [Share on/off]           
-|| [Add on/off] 		   
-|| [Jam on/off]				   
-|| [Com on/off]	
-||===== P R O T E C T =====||        
-|| [Easy mode]   
-|| [Hard mode]    
-|| [Protect on]			   
-|| [Qrprotect on/off]			   
-|| [Inviteprotect on/off]			   
-|| [Cancelprotect on/off]	
-||======= FOR ADMIN =======||
+helpMessage ="""✔ ( ˘ ³˘)❤ Oρтιση ( ˘ ³˘)❤ ✔
+↠ Cancel
+↠ Invite
+↠ Invite:
+↠ Unban @
+↠ Ban @
+↠ Clear ban
+↠ Link on
+↠ Link off
+↠ Gurl
+↠ Url
+↠ Gname
+↠ Banlist
+↠ Banlist mid
+↠ Ratakan
+↠ Kick @
+↠ Kick:
+
+✾ 𝓟𝓻𝓲𝓿𝓪𝓽𝒆 ✾
+↠ Me
+↠ Mymid
+↠ Mid @ 
+↠ Broadcast:
+↠ Grupbc:
+↠ Spam on/off
+↠ Speed
+↠ Mycopy @
+↠ Mybackup @
+↠ Getpp @
+↠ Getcover @
+↠ Getbio @
+↠ Getinfo @
+↠ Grup image
+↠ Gcreator 
+↠ Mention
+↠ Lurking
+↠ Result
+↠ Ginfo
+↠ Glist
+
+》===== S E T T I G S =====《 
+》 [Like:on/off]     
+》 [Like:me]     
+》 [Like:friend]     
+》 [Add on/off] 	 
+》 [Auto join on/off] 	   
+》 [Contact on/off] 	
+》 [Leave on/off]  
+》 [Share on/off]           
+》 [Add on/off] 		   
+》 [Jam on/off]				   
+》 [Com on/off]	
+》===== P R O T E C T =====《      
+》 [Easy mode]   
+》 [Hard mode]    
+》 [Protect on]			   
+》 [Qrprotect on/off]			   
+》 [Inviteprotect on/off]			   
+》 [Cancelprotect on/off]	
 """
 helo=""
 
@@ -87,9 +87,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"✟Ƥɾøтøтуρє✟一�:緑 BOTS\n\nCreator : Http://line.me/ti/p/~muhmursalind",
+    'message':"✟Ƥɾøтøтуρє✟一�:緑 BOTS\n\nCreator : Http://line.me/ti/p/~bojoogalak",
     "lang":"JP",
-    "comment":"Auto Like By ✟Ƥɾøтøтуρє✟一�:緑 BOTS\n\nCreator : Http://line.me/ti/p/~muhmursalind",
+    "comment":"Auto Like By ✟Ƥɾøтøтуρє✟一�:緑 BOTS\n\nCreator : Http://line.me/ti/p/~bojoogalak",
     "commentOn":False,
     "likeOn":False,
     "invite":{},
