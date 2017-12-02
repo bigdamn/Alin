@@ -13,7 +13,7 @@ print "===[Login Success]==="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""✔ ( ˘ ³˘)❤ Oρтιση ( ˘ ³˘)❤ ✔
+helpMessage ="""O P T I O N
 ↠ Cancel
 ↠ Invite
 ↠ Invite:
@@ -31,7 +31,7 @@ helpMessage ="""✔ ( ˘ ³˘)❤ Oρтιση ( ˘ ³˘)❤ ✔
 ↠ Kick @
 ↠ Kick:
 
-✾ 𝓟𝓻𝓲𝓿𝓪𝓽𝒆 ✾
+P R I V A T E
 ↠ Me
 ↠ Mymid
 ↠ Mid @ 
